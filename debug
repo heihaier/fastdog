@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# make debug
+
+make TARGET="fastdog.dbg" DEBUG="-g -D__H_DEBUG__" $1
